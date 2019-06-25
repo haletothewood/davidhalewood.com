@@ -31,3 +31,13 @@ enableEmoji = true
     name = "Github"
     url = "https://www.github.com/haletothewood"
     weight = 20
+
+  [[menu.main]]
+    name = "Medium"
+    url = "https://medium.com/@davidhalewood"
+    weight = 20
+
+  [[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/crafter_coder"
+    weight = 20
