@@ -1,0 +1,19 @@
+
+/* Custom Siderbar Header */
+.sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "PT Sans";
+    font-size: 3.25rem;
+  }
+
+
+/* Custom Themes */
+/* Azure */
+.theme-base-azure .sidebar {
+    background-color: #14809b;
+  }
+  .theme-base-azure .content a,
+  .theme-base-azure .related-posts li a:hover {
+    color: #19a0c2;
+  }
