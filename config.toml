@@ -1,7 +1,7 @@
 baseURL = "https://davidhalewood.com/"
 languageCode = "en-us"
 title = "David Halewood"
-theme = "hyde"
+theme = "gruvbox"
 
 enableGitInfo = true
 pygmentsCodefences  = true
@@ -10,34 +10,45 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true
 
-[author]
-  name = "David Halewood"
-
-[taxonomies]
-  tag = "tags"
+[permalinks]
+ posts = "/:slug"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  author = { name = "David Halewood" }
   description = "Software Crafter working in London, UK"
-  themeColor = "theme-base-azure"
-  homeSubtitle = "A place for my thoughts and musings on all things software."
+  keywords = ["software engineering", "software craftsmanship", "blog", "programmer", "developer", "haletothewood"]
+  titlePrefix = ""
+  titleSuffix = " | davidhalewood.com"
+  menuItemPrefix = "~/"
+  postTruncateLength = 250
+  hideGopher = true
+  disqusAutoLoad = false
+  disqusAutoLoadCount = false
+  dateFormat = "2006-01-02"
+  logo = "logo.jpg"
 
-[menu]
+[[menu.links]]
+  identifier = "posts"
+  url = "/posts"
 
-  [[menu.main]]
-    name = "Github"
-    url = "https://www.github.com/haletothewood"
-    weight = 20
+[[menu.social]]
+  name = "Github"
+  url = "https://www.github.com/haletothewood"
+  weight = 1
 
-  [[menu.main]]
-    name = "Medium"
-    url = "https://medium.com/@davidhalewood"
-    weight = 20
+[[menu.social]]
+  name = "Medium"
+  url = "https://medium.com/@davidhalewood"
+  weight = 10
 
-  [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/crafter_coder"
-    weight = 20
+[[menu.social]]
+  name = "Twitter"
+  url = "https://twitter.com/craftercoder"
+  weight = 30
+
+[[menu.social]]
+  name = "LinkedIn"
+  url = "https://uk.linkedin.com/in/david-halewood-uk"
+  weight = 100
+
+
