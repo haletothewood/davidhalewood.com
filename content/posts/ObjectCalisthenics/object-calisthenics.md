@@ -6,7 +6,7 @@ tags: ["Object Calisthenics", "Test Driven Development", "Codurance"]
 ---
 Following on from last weeks post about the [Transformation Priority Premise](http://localhost:8000/blog/transformation-priority-premise) this post is about another constraint that we used whilst learning Test Driven Development at [Codurance](https://codurance.com). 
 
-![Object Calisthenics in picture form](obj_calisthenics.png)
+![Object Calisthenics in picture form](static/obj_calisthenics.png)
 
 Originally proposed by Jeff Bay in the [ThoughtWorks Anthology](https://pragprog.com/book/twa/thoughtworks-anthology) (which is unfortunately out of print) __Object Calisthenics__ are a set of rules, or constraints, to follow whilst test driving a solution to the programming problem of your choice.
 

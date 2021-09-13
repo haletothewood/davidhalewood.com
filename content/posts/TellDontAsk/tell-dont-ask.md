@@ -13,7 +13,7 @@ We want to avoid our code becoming highly coupled to the internal workings of an
 
 The below diagram (shamelessly copied from [this blog post](https://martinfowler.com/bliki/TellDontAsk.html) by Martin Fowler) helps visualize what the difference I'm trying to explain is:
 
-![Tell, don't ask!](tell_dont_ask.png)
+![Tell, don't ask!](static/tell_dont_ask.png)
 
 Let's look at a simple example in Java:
 

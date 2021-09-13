@@ -24,7 +24,7 @@ With CI, developers will frequently commit to a central repository using version
 
 **<center>Continuous Integration Flow:</center>**
 
-{{- $image := resources.Get "content/posts/CiWithCircleCi/ci-diagram.png" -}}
+![Continuous Integration Diagram](static/ci-diagram.png)
 
 For us, as a team, implementing CI early in our development lifecycle allowed us to get quick feedback on intended changes and to avoid divergent, unmergable or broken code being introduced.
 
@@ -101,7 +101,7 @@ An example of how this may look in your jobs output in CircleCI. You can view th
 
 **<center>CircleCI Jobs</center>**
 
-{{- $image := resources.Get "content/posts/CiWithCircleCi/ci-jobs.png" -}}
+![CircleCI Jobs](static/ci-jobs.png)
 
 As an aside, if you are running your application in docker, your config.yaml may look similar to the following which first builds the docker image then runs the app and initiates the tests inside the container using the `setup_remote_docker` step. For more info please read [the CircleCI documentation for running Docker Commands](https://circleci.com/docs/2.0/building-docker-images/):
 
@@ -137,7 +137,7 @@ workflows:
 
 **<center>This is how your PRs may look on GitHub:</center>**
 
-{{- $image := resources.Get "content/posts/CiWithCircleCi/github-integration.png" -}}
+![Github Integration](static/github-integration.png)
 
 There are some downsides to using CircleCI, most notably that it does not offer docker layer caching on the free tier. This would certainly speed up build time as layers would only need to be rebuilt if any changes had been made. Similar to multi-stage Dockerfiles being built locally on your machine. If you have a premium account (lucky you!) then you need only add `docker_layer_caching: true` under `setup_remote_docker` to utilse this.
 
