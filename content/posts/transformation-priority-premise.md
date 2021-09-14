@@ -1,7 +1,7 @@
 ---
 date: "2019-08-04"
 title: "TDD with the Transformation Priority Premise"
-draft: "false"
+draft: false
 ---
 Test-Driven Development is an easy concept that is much harder to do than it seems on the surface. The difficulty lies in it's simplicity. Only through intentional practice, application and experience can we, as developers, come to recognize the steps necessary to do it right.
 

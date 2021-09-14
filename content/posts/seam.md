@@ -1,5 +1,5 @@
 ---
-draft: "false"
+draft: false
 date: "2019-09-02"
 title: "Using a seam to test legacy code"
 tags: ["TDD", "Codurance", "Legacy Code"]

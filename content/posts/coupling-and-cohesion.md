@@ -1,7 +1,7 @@
 ---
 date: "2019-09-10"
 title: "Low Coupling and High Cohesion"
-draft: "false"
+draft: false
 ---
 
 I have known, for almost as long as I've been coding (two years), that coupling and cohesion are two very important concepts in software design. To be specific, **low coupling and high cohesion** <sup>*</sup>. I've known this, and yet, I don't think I really understood it until my time as an apprentice at [Codurance](https://codurance.com/careers/become_an_apprentice/).

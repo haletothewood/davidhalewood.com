@@ -1,7 +1,7 @@
 ---
-path: "/blog/object-calisthenics"
 date: "2019-08-12"
 title: "TDD with Object Calisthenics"
+draft: false
 tags: ["Object Calisthenics", "Test Driven Development", "Codurance"]
 ---
 Following on from last weeks post about the [Transformation Priority Premise](http://localhost:8000/blog/transformation-priority-premise) this post is about another constraint that we used whilst learning Test Driven Development at [Codurance](https://codurance.com). 

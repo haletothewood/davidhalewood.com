@@ -1,7 +1,7 @@
 ---
-path: "/blog/interface-segregation-principle"
 date: "2019-08-22"
 title: "Interface Segregation Principle"
+draft: "false"
 tags: ["SOLID", "Uncle Bob", "Design Principles", "Software Engineering"]
 ---
 

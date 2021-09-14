@@ -1,7 +1,7 @@
 ---
 date: "2019-08-20"
 title: "Liskov Substitution Principle"
-draft: "false"
+draft: false
 ---
 
 This blog entry is the third in a series of lightning talk style posts about each of the [SOLID Design Principles](https://en.wikipedia.org/wiki/SOLID) for object-oriented software.

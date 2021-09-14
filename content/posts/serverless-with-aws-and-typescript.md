@@ -1,7 +1,7 @@
 ---
-path: "/blog/serverless-with-aws-and-typescript"
 date: "2019-10-11"
 title: "Serverless with AWS and Typescript"
+draft: false
 tags: ["Serverless", "AWS", "Typescript"]
 ---
 

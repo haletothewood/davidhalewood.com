@@ -1,7 +1,7 @@
 ---
 date: "2019-08-17"
 title: "Single Responsibility Principle"
-draft: "false"
+draft: false
 ---
 
 This blog entry will be the first in a series of lightning posts about each of the [SOLID Design Principles](https://en.wikipedia.org/wiki/SOLID) for object-oriented software. First identified by Robert C. Martin (Uncle Bob) in a 2000 paper, these designs, if applied, produce a more maintainable, adaptable and understandable codebase.

@@ -1,7 +1,7 @@
 ---
-path: "/blog/ci-with-circleci"
 date: "2019-09-29"
 title: "Continuous Integration with CircleCI"
+draft: false
 tags: ["Software Engineering", "Software Craftsmanship", "Codurance", "Continous Integration", "DevOps"]
 ---
 Over the last week, myself and my fellow apprentices at Codurance have been working on delivering a product as part of our final project. To do this we have been applying Agile methodologies, specifically [Scrum processeses](https://scrumguides.org/) and [XP practices](http://www.extremeprogramming.org/). 

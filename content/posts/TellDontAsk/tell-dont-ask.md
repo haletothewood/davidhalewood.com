@@ -1,8 +1,8 @@
 ---
-path: "/blog/tell-dont-ask"
 date: "2019-09-09"
 title: "Tell, don't ask"
 tags: ["TDD", "Martin Fowler", "Object Collaboration Design", "Software Engineering", "Codurance"]
+draft: false
 ---
 
 During my time as an apprentice at Codurance I've come across the software design principle of 'Tell, don't ask'. I believe it's something that my budding code smell radar was already aware of but only now do I feel able to explain it.
