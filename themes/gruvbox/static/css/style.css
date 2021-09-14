@@ -79,6 +79,10 @@ body>footer>* {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  
+  @media screen and (max-width: 600px) {
+    background-image: none
+  }
 }
 
 body>header>.left>h1>a {

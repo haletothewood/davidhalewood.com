@@ -35,9 +35,11 @@
 
   {{ if .Site.Params.logo }}
   <style type="text/css">
-    .logo {
-      background-image: url('{{ .Site.Params.logo | relURL }}');
-    }
+    @media screen and (min-width: 600px){
+      .logo {
+        background-image: url('/logo.jpg');
+      }
+    };
   </style>
   {{ end }}
 </head>
