@@ -22,28 +22,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.gopher::after {
-  content: '';
-  display: inline-block;
-  vertical-align: top;
-  animation: gopherwave 2s infinite;
-}
-
-.gopher:hover::after {
-  animation: gopherwave .5s infinite;
-}
-
-@keyframes gopherwave {
-  0%, 100% {
-    content: 'ˏʕ⚆ϖ⚆ʔˎ';
-    color: #689d6a;
-  }
-  50% {
-    content: '`ʕ◔ϖ◔ʔ´';
-    color: #8ec07c;
-  }
-}
-
 body {
   font-family: "Go Mono", "Source Code Pro", "Monaco", monospace;
   font-size: 14px;

@@ -15,7 +15,7 @@ enableEmoji = true
 
 [params]
   author = { name = "David Halewood" }
-  description = "Software Crafter working in London, UK"
+  description = "Software Engineer (Craftsman) working remotely, UK and elsewhere"
   keywords = ["software engineering", "software craftsmanship", "blog", "programmer", "developer", "haletothewood"]
   titlePrefix = ""
   titleSuffix = " | davidhalewood.com"
@@ -37,18 +37,6 @@ enableEmoji = true
   weight = 1
 
 [[menu.social]]
-  name = "Medium"
-  url = "https://medium.com/@davidhalewood"
-  weight = 10
-
-[[menu.social]]
-  name = "Twitter"
-  url = "https://twitter.com/craftercoder"
-  weight = 30
-
-[[menu.social]]
   name = "LinkedIn"
   url = "https://uk.linkedin.com/in/david-halewood-uk"
   weight = 100
-
-
